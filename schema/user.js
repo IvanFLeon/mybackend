@@ -9,6 +9,9 @@ resolver = {
     User: {
         name: async (user, args, context) => {
             return user.name;
+        },
+        email: async (user, args, context) => {
+            return user.email;
         }
     }
 }
